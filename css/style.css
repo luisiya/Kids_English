@@ -38,7 +38,10 @@
 
       box-shadow: black 4px 4px 10px ;
 }
-
+#respond:hover, #respond1:hover, #respond2:hover, #respond3:hover, #respond4:hover, #respond5:hover{
+      font-size:34px;
+      /*width: 310px;*/
+}
 #respond:active, #respond1:active{
       font-size:30px ;
 }
