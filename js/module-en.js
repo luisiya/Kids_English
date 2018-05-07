@@ -9,7 +9,15 @@ let weekDays = {
     суббота:'Saturday',
     воскресенье:'Sunday'
 };
+let weather = {
+    солнечно:'sunny',
+    тепло:'hot',
+    холодно:'cold',
+    снежно:'snowing',
+    дождливо:'raining',
+    пасмурно:'cloudy',
 
+};
 let numbersElevenTwenty = {
     одинадцать:'eleven',
     двенадцать:'twelve',
@@ -126,6 +134,8 @@ function startPlay(){
     respond5.style.margin = "10px 0 5px 0";
     respond6.style.visibility = "visible";
     respond6.style.margin = "10px 0 5px 0";
+    respond7.style.visibility = "visible";
+    respond7.style.margin = "10px 0 5px 0";
 }
 
 //Initial definition
@@ -146,6 +156,7 @@ function play(elem){
     respond4.style.visibility = "hidden";
     respond5.style.visibility = "hidden";
     respond6.style.visibility = "hidden";
+    respond7.style.visibility = "hidden";
     playSound("re");
     question.innerHTML = "Как будет на английском слово \"" + shuffledWords[elem] + "\"?";
     respond.innerHTML = "Проверить";
