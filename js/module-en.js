@@ -22,6 +22,17 @@ let numbersElevenTwenty = {
     девятнадцать:'nineteen',
     двадцать:'twenty'
 };
+let beach = {
+    ловить_рыбу:'catch a fish',
+    рисовать_картину:'paint a picture',
+    есть_мороженое:'eat ice cream',
+    фотографировать:'take a photo',
+    слушать_музыку:'listen to music',
+    искать_ракушки:'look for shells',
+    читать_книгу:'read a book',
+    строить_песочный_замок:'make a sandcastle',
+
+};
 let house = {
     ванная:'bathroom',
     спальня:'bedroom',
@@ -113,6 +124,8 @@ function startPlay(){
     respond4.style.margin = "10px 0 5px 0";
     respond5.style.visibility = "visible";
     respond5.style.margin = "10px 0 5px 0";
+    respond6.style.visibility = "visible";
+    respond6.style.margin = "10px 0 5px 0";
 }
 
 //Initial definition
@@ -132,6 +145,7 @@ function play(elem){
     respond3.style.visibility = "hidden";
     respond4.style.visibility = "hidden";
     respond5.style.visibility = "hidden";
+    respond6.style.visibility = "hidden";
     playSound("re");
     question.innerHTML = "Как будет на английском слово \"" + shuffledWords[elem] + "\"?";
     respond.innerHTML = "Проверить";
@@ -142,7 +156,7 @@ function play(elem){
 //Function that check if the user entered the translation correctly
 function checkValue(elem) {
     result.setAttribute("style", "visibility: none");
-    if (document.getElementById('answer').value != "") {
+                if (document.getElementById('answer').value != "") {
         if (document.getElementById('answer').value.toLowerCase() === userChoice[shuffledWords[elem]].toLowerCase()) {
             result.setAttribute("style", "font-weight: bold; color: green; font-size:3em; background-color:white; width:600px; margin-top:10px");
             result.innerHTML = "Это правильный ответ!";
