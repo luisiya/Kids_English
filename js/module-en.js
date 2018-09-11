@@ -84,6 +84,39 @@ let animals = {
     медуза:'jekkyfish',
     пенгвин:'penguin'
 };
+let school = {
+    дверь:'door',
+    окно:'window',
+    шкаф:'bookcase',
+    стена:'wall',
+    часы:'clock',
+    тумбочка:'cupboard',
+    стул:'chair',
+    пол:'floor',
+    доска:'board'
+};
+let myDay = {
+    'просыпаться':'get up',
+    'одеваться':'get dressed',
+    'завтракать':'have breakfast',
+    'чистить зубы':'brash your teeth',
+    'идти в школу':'go to school',
+    'обедать':'have lunch',
+    'играть в парке':'play in the park',
+    'ужинать':'have dinner',
+    'идти спать':'go to bed'
+};
+let zoo = {
+    'зебра':'zebra',
+    'обезьяна':'monkey',
+    'змея':'hippo',
+    'бегемот':'snake',
+    'попугай':'parrot',
+    'медведь':'bear',
+    'крокодил':'crocodile',
+    'тигр':'tiger'
+
+};
 //array for shuffled keys, needs to be global
 let shuffledWords;
 
@@ -136,6 +169,12 @@ function startPlay(){
     respond6.style.margin = "10px 0 5px 0";
     respond7.style.visibility = "visible";
     respond7.style.margin = "10px 0 5px 0";
+    respond8.style.visibility = "visible";
+    respond8.style.margin = "10px 0 5px 0";
+    respond9.style.visibility = "visible";
+    respond9.style.margin = "10px 0 5px 0";
+    respond10.style.visibility = "visible";
+    respond10.style.margin = "10px 0 5px 0";
 }
 
 //Initial definition
@@ -157,8 +196,12 @@ function play(elem){
     respond5.style.visibility = "hidden";
     respond6.style.visibility = "hidden";
     respond7.style.visibility = "hidden";
+    respond8.style.visibility = "hidden";
+    respond9.style.visibility = "hidden";
+    respond10.style.visibility = "hidden";
     playSound("re");
-    question.innerHTML = "Как будет на английском слово \"" + shuffledWords[elem] + "\"?";
+    question.innerHTML = "Как будет на английском слово \"" +
+        shuffledWords[elem] + "\"?";
     respond.innerHTML = "Проверить";
     document.getElementById("answer").focus();
     respond.setAttribute("onclick", `checkValue("${elem}")`);
