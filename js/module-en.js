@@ -109,8 +109,8 @@ let myDay = {
 let zoo = {
     'зебра':'zebra',
     'обезьяна':'monkey',
-    'змея':'hippo',
-    'бегемот':'snake',
+    'бегемот':'hippo',
+    'змея':'snake',
     'попугай':'parrot',
     'медведь':'bear',
     'крокодил':'crocodile',
