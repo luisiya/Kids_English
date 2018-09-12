@@ -34,8 +34,6 @@
       width: 300px;
       transition: all 0.5s;
       cursor: pointer;
-      margin-top:150px;
-
       box-shadow: black 4px 4px 10px ;
 }
 #respond:hover, #respond1:hover, #respond2:hover, #respond3:hover, #respond4:hover, #respond5:hover,#respond6:hover, #respond7:hover, #respond8:hover,#respond9:hover,#respond10:hover,{

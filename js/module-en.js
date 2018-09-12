@@ -200,8 +200,8 @@ function play(elem){
     respond9.style.visibility = "hidden";
     respond10.style.visibility = "hidden";
     playSound("re");
-    question.innerHTML = "Как будет на английском слово \"" +
-        shuffledWords[elem] + "\"?";
+    question.innerHTML = "Как будет на английском слово"  +  "<br />"+
+        "\"" + shuffledWords[elem] + "\"?";
     respond.innerHTML = "Проверить";
     document.getElementById("answer").focus();
     respond.setAttribute("onclick", `checkValue("${elem}")`);
@@ -218,7 +218,7 @@ function checkValue(elem) {
         }
         else {
             result.setAttribute("style", "font-weight: bold; color: red");
-            result.innerHTML = "Неправильно. Корректно писать \"" + userChoice[shuffledWords[elem]] + "\".";
+            result.innerHTML = "Неправильно. Корректно писать "+  "<br />" + "\"" +userChoice[shuffledWords[elem]] + "\".";
         }
         respond.innerHTML = "Далее";
         respond.setAttribute("onclick", `next("${elem}")`);
