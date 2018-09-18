@@ -117,6 +117,37 @@ let zoo = {
     'тигр':'tiger'
 
 };
+let numbers = {
+    '1':'one',
+    '2':'two',
+    '3':'three',
+    '4':'four',
+    '5':'five',
+    '6':'six',
+    '7':'seven',
+    '8':'eight',
+    '9':'nine',
+    '10':'ten',
+    '11':'eleven',
+    '12':'twelve',
+    '13':'thirteen',
+    '14':'fourteen',
+    '15':'fifteen',
+    '16':'sixteen',
+    '17':'seventeen',
+    '18':'eighteen',
+    '19':'nineteen',
+    '20':'twenty',
+    '30':'thirty',
+    '40':'forty',
+    '50':'fifty',
+    '60':'sixty',
+    '70':'seventy',
+    '80':'eighty',
+    '90':'ninety',
+    '100':'one hundred'
+
+};
 //array for shuffled keys, needs to be global
 let shuffledWords;
 
@@ -175,6 +206,8 @@ function startPlay(){
     respond9.style.margin = "10px 0 5px 0";
     respond10.style.visibility = "visible";
     respond10.style.margin = "10px 0 5px 0";
+    respond11.style.visibility = "visible";
+    respond11.style.margin = "10px 0 5px 0";
 }
 
 //Initial definition
@@ -199,6 +232,7 @@ function play(elem){
     respond8.style.visibility = "hidden";
     respond9.style.visibility = "hidden";
     respond10.style.visibility = "hidden";
+    respond11.style.visibility = "hidden";
     playSound("re");
     question.innerHTML = "Как будет на английском слово"  +  "<br />"+
         "\"" + shuffledWords[elem] + "\"?";

@@ -20,7 +20,7 @@
        height:800px;
 
  }
-#respond, #respond1, #respond2, #respond3, #respond4, #respond5,#respond6, #respond7,#respond8,#respond9, #respond10{
+#respond11, #respond, #respond1, #respond2, #respond3, #respond4, #respond5,#respond6, #respond7,#respond8,#respond9, #respond10{
       visibility: hidden;
 
       display: inline-block;
@@ -36,7 +36,7 @@
       cursor: pointer;
       box-shadow: black 4px 4px 10px ;
 }
-#respond:hover, #respond1:hover, #respond2:hover, #respond3:hover, #respond4:hover, #respond5:hover,#respond6:hover, #respond7:hover, #respond8:hover,#respond9:hover,#respond10:hover,{
+#respond11:hover, #respond:hover, #respond1:hover, #respond2:hover, #respond3:hover, #respond4:hover, #respond5:hover,#respond6:hover, #respond7:hover, #respond8:hover,#respond9:hover,#respond10:hover,{
       font-size:34px;
       /*width: 310px;*/
 }
