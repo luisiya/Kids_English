@@ -148,6 +148,19 @@ let numbers = {
     '100':'one hundred'
 
 };
+let where = {
+    'парк':'park',
+    'детская площадка':'playground',
+    'госпиталь':'hospital',
+    'автобусная остановка':'bus stop',
+    'кинотеатр':'cinema',
+    'бассейн':'swimming pool',
+    'магазин':'shop',
+    'улица':'street',
+    'кафе':'cafe',
+    'железнодорожняя станция':'train station'
+
+};
 //array for shuffled keys, needs to be global
 let shuffledWords;
 
@@ -208,6 +221,8 @@ function startPlay(){
     respond10.style.margin = "10px 0 5px 0";
     respond11.style.visibility = "visible";
     respond11.style.margin = "10px 0 5px 0";
+    respond12.style.visibility = "visible";
+    respond12.style.margin = "10px 0 5px 0";
 }
 
 //Initial definition
@@ -233,6 +248,7 @@ function play(elem){
     respond9.style.visibility = "hidden";
     respond10.style.visibility = "hidden";
     respond11.style.visibility = "hidden";
+    respond12.style.visibility = "hidden";
     playSound("re");
     question.innerHTML = "Как будет на английском слово"  +  "<br />"+
         "\"" + shuffledWords[elem] + "\"?";
