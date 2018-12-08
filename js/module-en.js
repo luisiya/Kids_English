@@ -161,6 +161,38 @@ let where = {
     'железнодорожняя станция':'train station'
 
 };
+let people = {
+    'волосы':'hair',
+    'глаза':'eyes',
+    'очки':'glasses',
+    'щеки':'cheeks',
+    'подбродок':'chin',
+    'нос':'mouth',
+    'уши':'ears',
+    'лицо':'face'
+
+};
+let myBedroom = {
+    'лампа':'lamp',
+    'кресло':'armchair',
+    'диван':'sofa',
+    'кровать':'bed',
+    'коврик':'mat',
+    'шкаф':'wardrobe',
+    'зеркало':'mirror',
+    'стол':'table'
+
+};
+let berries = {
+    'вишня':'cherry',
+    'клубника':'strawberry',
+    'ягода':'berry',
+    'груша':'pear',
+    'слива':'plum',
+    'персик':'peach',
+    'малина':'raspberry'
+
+};
 //array for shuffled keys, needs to be global
 let shuffledWords;
 
@@ -223,6 +255,12 @@ function startPlay(){
     respond11.style.margin = "10px 0 5px 0";
     respond12.style.visibility = "visible";
     respond12.style.margin = "10px 0 5px 0";
+    respond13.style.visibility = "visible";
+    respond13.style.margin = "10px 0 5px 0";
+    respond14.style.visibility = "visible";
+    respond14.style.margin = "10px 0 5px 0";
+    respond15.style.visibility = "visible";
+    respond15.style.margin = "10px 0 5px 0";
 }
 
 //Initial definition
@@ -249,6 +287,12 @@ function play(elem){
     respond10.style.visibility = "hidden";
     respond11.style.visibility = "hidden";
     respond12.style.visibility = "hidden";
+    respond13.style.visibility = "hidden";
+    respond14.style.visibility = "hidden";
+    respond15.style.visibility = "hidden";
+
+
+
     playSound("re");
     question.innerHTML = "Как будет на английском слово"  +  "<br />"+
         "\"" + shuffledWords[elem] + "\"?";
