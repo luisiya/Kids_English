@@ -1,54 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Dorsa" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/blocks.png">
 
 
-
-  <!DOCTYPE html>
-  <html>
-    <head>
-     
-       <link rel = "stylesheet" href = "css/style.css">
-	   <meta charset="utf-8">
-       <link href="https://fonts.googleapis.com/css?family=Dorsa" rel="stylesheet">
-       <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet" >
-        <link rel="icon" type="image/png" href="img/blocks.png" >
-
-
-
-      <title>ENGLISH KIDs</title>
-    </head>
+    <title>ENGLISH KIDs</title>
+</head>
 <body>
 <div class="container">
 
-       <button id="start" class="button" onclick= "startPlay()" style="vertical-align:middle"><span>СТАРТ</span></button>
-        <p id="category" style="visibility: hidden">Choose category</p>
-          <div class="userForm">
-            <p id="question"></p>
-            <p id="inputLine" style="visibility: hidden">Ответ: <input type="text" id="answer"></p>
-            <p id="result" style="visibility: hidden"></p>
-          </div>
-            <button id="respond" onclick="init(weekDays)">Week days</button>
-            <button id="respond1" onclick="init(numbersElevenTwenty)">Numbers 11-20</button>
-            <button id="respond2" onclick="init(house)">House</button>
-            <button id="respond3" onclick="init(clothing)">Clothing</button>
-            <button id="respond4" onclick="init(human)">Body</button>
-            <button id="respond5" onclick="init(animals)">Animals</button>
-            <button id="respond6" onclick="init(beach)">At the beach</button>
-            <button id="respond7" onclick="init(weather)">Weather</button>
-            <button id="respond8" onclick="init(school)">Back to school</button>
-            <button id="respond9" onclick="init(myDay)">My Day</button>
-            <button id="respond10" onclick="init(zoo)">The ZOO</button>
-            <button id="respond11" onclick="init(numbers)">Numbers</button>
-            <button id="respond12" onclick="init(where)">Where we live</button>
-    <button id="respond13" onclick="init(berries)"><img style="height:40px; width:40px;margin-right:20px;" src="img/new.png" alt="new">Berries</button>
-    <button id="respond14" onclick="init(myBedroom)"><img style="height:40px; width:40px;margin-right:20px;" src="img/new.png" alt="new">My bedroom</button>
-    <button id="respond15" onclick="init(people)"><img style="height:40px; width:40px;margin-right:20px;" src="img/new.png" alt="new">People</button>
-            <audio id="mainMusic" class="sonidos" src="http://www.dreamenglish.com/Dream%20English%20Traditional%20ABC01.mp3" data-note="main"   ></audio>
-            <audio class="sonidos" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/742140/C.mp3" data-note="do"></audio>
-            <audio class="sonidos" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/742140/D.mp3" data-note="re"></audio>
+    <button id="start" class="button" onclick="startPlay()" style="vertical-align:middle"><span>СТАРТ</span></button>
+    <p id="category" style="visibility: hidden">Choose category</p>
+    <div class="userForm">
+        <p id="question"></p>
+        <p id="inputLine" style="visibility: hidden">Ответ: <input type="text" id="answer"></p>
+        <p id="result" style="visibility: hidden"></p>
+    </div>
+    <button id="respond" onclick="init(weekDays)">Week days</button>
+    <button id="respond1" onclick="init(numbersElevenTwenty)">Numbers 11-20</button>
+    <button id="respond2" onclick="init(house)">House</button>
+    <button id="respond3" onclick="init(clothing)">Clothing</button>
+    <button id="respond4" onclick="init(human)">Body</button>
+    <button id="respond5" onclick="init(animals)">Animals</button>
+    <button id="respond6" onclick="init(beach)">At the beach</button>
+    <button id="respond7" onclick="init(weather)">Weather</button>
+    <button id="respond8" onclick="init(school)">Back to school</button>
+    <button id="respond9" onclick="init(myDay)">My Day</button>
+    <button id="respond10" onclick="init(zoo)">The ZOO</button>
+    <button id="respond11" onclick="init(numbers)">Numbers</button>
+    <button id="respond12" onclick="init(where)">Where we live</button>
+    <button id="respond13" onclick="init(berries)"><img style="height:40px; width:40px;margin-right:20px;"
+                                                        src="img/new.png" alt="new">Berries
+    </button>
+    <button id="respond14" onclick="init(myBedroom)"><img style="height:40px; width:40px;margin-right:20px;"
+                                                          src="img/new.png" alt="new">My bedroom
+    </button>
+    <button id="respond15" onclick="init(people)"><img style="height:40px; width:40px;margin-right:20px;"
+                                                       src="img/new.png" alt="new">People
+    </button>
+    <audio id="mainMusic" class="sonidos" src="http://www.dreamenglish.com/Dream%20English%20Traditional%20ABC01.mp3"
+           data-note="main"></audio>
+    <audio class="sonidos" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/742140/C.mp3" data-note="do"></audio>
+    <audio class="sonidos" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/742140/D.mp3" data-note="re"></audio>
 
 
-</div><span class="signature">© 2018 created by Luisi Kravchenko</span>
+</div>
+<span class="signature">© 2018 created by Luisi Kravchenko</span>
 
-    <script src="js/module-en.js"></script>
+<script src="js/module-en.js"></script>
 </body>
 </html>
         

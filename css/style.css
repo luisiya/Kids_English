@@ -1,187 +1,194 @@
-*{
-      margin:0;
-      padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
+body {
 
- body{
-
-      font-family: arial, Trebuchet, sans-serif;
-      font-size:16px;
-      color:#263555;
-
-
-
- }
- .container{
-       margin:0 auto;
-       background: url(../img/maxresdefault.jpg);
-       width:1024px;
-       height:800px;
-
- }
- #respond,#respond13, #respond14, #respond15, #respond1, #respond2, #respond3, #respond4, #respond5,#respond6, #respond7,#respond8,#respond9, #respond10,#respond11,#respond12{
-      visibility: hidden;
-
-      display: inline-block;
-      border-radius: 8px;
-      background-color:lightseagreen;
-      border: none;
-      color: #FFFFFF;
-      text-align: center;
-      font-size: 28px;
-      padding: 10px;
-      width: 300px;
-      transition: all 0.5s;
-      cursor: pointer;
-      box-shadow: black 4px 4px 10px ;
-}
- #respond:hover, #respond13:hover, #respond14:hover, #respond15:hover,#respond1:hover, #respond2:hover, #respond3:hover, #respond4:hover, #respond5:hover,#respond6:hover, #respond7:hover, #respond8:hover,#respond9:hover,#respond10:hover,#respond11:hover, #respond12:hover{
-      font-size:34px;
-      /*width: 310px;*/
-}
-#respond:active, #respond1:active, #respond6:active{
-      font-size:30px ;
-}
-#respond6{
-      font-size:28px;
-      margin-left: 50%;
-}
-#question{
-      font-size:2em;
-      text-align: center;
-      font-size:2em;
-      background-color: white;
-      color:black;
-      box-shadow: black 4px 4px 10px ;
-      width:600px;
+    font-family: arial, Trebuchet, sans-serif;
+    font-size: 16px;
+    color: #263555;
 
 }
-#answer{
-      box-shadow: black 4px 4px 10px ;
-}
-#start{
 
-      display: inline-block;
-      border-radius: 8px;
-      background-color: #f4511e;
-      border: none;
-      color: #FFFFFF;
-      text-align: center;
-      font-size: 28px;
-      padding: 20px;
-      width: 200px;
-      transition: all 0.5s;
-      cursor: pointer;
-      margin-top:10%;
-      margin-left:10%;
-      box-shadow: black 4px 4px 10px ;
+.container {
+    margin: 0 auto;
+    background: url(../img/maxresdefault.jpg);
+    width: 1024px;
+    height: 800px;
+
+}
+
+#respond, #respond13, #respond14, #respond15, #respond1, #respond2, #respond3, #respond4, #respond5, #respond6, #respond7, #respond8, #respond9, #respond10, #respond11, #respond12 {
+    visibility: hidden;
+
+    display: inline-block;
+    border-radius: 8px;
+    background-color: lightseagreen;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: black 4px 4px 10px;
+}
+
+#respond:hover, #respond13:hover, #respond14:hover, #respond15:hover, #respond1:hover, #respond2:hover, #respond3:hover, #respond4:hover, #respond5:hover, #respond6:hover, #respond7:hover, #respond8:hover, #respond9:hover, #respond10:hover, #respond11:hover, #respond12:hover {
+    font-size: 34px;
+    /*width: 310px;*/
+}
+
+#respond:active, #respond1:active, #respond6:active {
+    font-size: 30px;
+}
+
+#respond6 {
+    font-size: 28px;
+    margin-left: 50%;
+}
+
+#question {
+    font-size: 2em;
+    text-align: center;
+    font-size: 2em;
+    background-color: white;
+    color: black;
+    box-shadow: black 4px 4px 10px;
+    width: 600px;
+
+}
+
+#answer {
+    box-shadow: black 4px 4px 10px;
+}
+
+#start {
+
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-left: 10%;
+    box-shadow: black 4px 4px 10px;
 
 }
 
 .button span {
-      cursor: pointer;
-      display: inline-block;
-      position: relative;
-      transition: 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
 
 }
 
 .button span:after {
-      content: '\00bb';
-      position: absolute;
+    content: '\00bb';
+    position: absolute;
 
-      opacity: 0;
-      top: 0;
-      right: -20px;
-      transition: 0.5s;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
 }
 
 .button:hover span {
-      padding-right: 25px;
+    padding-right: 25px;
 }
 
 .button:hover span:after {
-      opacity: 1;
-      right: 0;
+    opacity: 1;
+    right: 0;
 }
 
-
-
-#task{
-      font-size:1.2em;
-      text-align: center;
-      line-height:6;
-      background-color: pink;
-      border-radius: 20px;
-      position: relative;
-      visibility: hidden;
-      width: 500px;
-      height: 200px;
-      margin: 60px 60px 60px 120px;
-      box-shadow: black 4px 4px 10px ;
+#task {
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 6;
+    background-color: pink;
+    border-radius: 20px;
+    position: relative;
+    visibility: hidden;
+    width: 500px;
+    height: 200px;
+    margin: 60px 60px 60px 120px;
+    box-shadow: black 4px 4px 10px;
 }
 
-
-
-#input{
-      font-size:1.2em;
-      position: absolute;
-      border-radius: 10px;
-      top: 380px;
-      left: 220px;
-      height: 40px;
-      width: 300px;
-      visibility: hidden;
+#input {
+    font-size: 1.2em;
+    position: absolute;
+    border-radius: 10px;
+    top: 380px;
+    left: 220px;
+    height: 40px;
+    width: 300px;
+    visibility: hidden;
 }
-#checking{
-      visibility: hidden;
+
+#checking {
+    visibility: hidden;
 
 }
 
-
-
-.sound  {
-      position: absolute;
-      top: -2px;
-      right: 100px;
-      color: black;
-      font: 26px Arial, sans-serif;
-      font-weight: bold;
+.sound {
+    position: absolute;
+    top: -2px;
+    right: 100px;
+    color: black;
+    font: 26px Arial, sans-serif;
+    font-weight: bold;
 }
-#category{
-      margin-left:10px;
 
-      font-size:2.8em;
-}
-#inputLine{
-      font-size:2em;
-      margin-top:80px;
+#category {
+    margin-left: 10px;
 
+    font-size: 2.8em;
 }
-.userForm{
-      margin-left:200px;
+
+#inputLine {
+    font-size: 2em;
+    margin-top: 80px;
 
 }
-#result{
-      font-size:2em;
-      color:red;
-      background-color:white;
-      width:600px;
-      text-align: center;
-      margin-top:10px;
-      box-shadow: black 4px 4px 10px ;
-}
-.userForm input{
-      height:100px;
-      width:400px;
-      font-size:1.6em;
+
+.userForm {
+    margin-left: 200px;
 
 }
-#inputLine{
-      color:white;
+
+#result {
+    font-size: 2em;
+    color: red;
+    background-color: white;
+    width: 600px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: black 4px 4px 10px;
 }
-.signature{
-     float:right;
+
+.userForm input {
+    height: 100px;
+    width: 400px;
+    font-size: 1.6em;
+
+}
+
+#inputLine {
+    color: white;
+}
+
+.signature {
+    float: right;
 
 }

@@ -167,7 +167,8 @@ let people = {
     'очки':'glasses',
     'щеки':'cheeks',
     'подбродок':'chin',
-    'нос':'mouth',
+    'нос':'nose',
+    'рот':'mouth',
     'уши':'ears',
     'лицо':'face'
 
