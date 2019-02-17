@@ -194,6 +194,23 @@ let berries = {
     'малина':'raspberry'
 
 };
+
+let months = {
+    'январь':'January',
+    'февоаль':'February',
+    'март':'March',
+    'апрель':'April',
+    'май':'May',
+    'июнь':'June',
+    'июль':'July',
+    'август':'August',
+    'сентябрь':'September',
+    'октябрь':'October',
+    'ноябрь':'November',
+    'декабрь':'December'
+
+
+};
 //array for shuffled keys, needs to be global
 let shuffledWords;
 
@@ -262,6 +279,9 @@ function startPlay(){
     respond14.style.margin = "10px 0 5px 0";
     respond15.style.visibility = "visible";
     respond15.style.margin = "10px 0 5px 0";
+    respond16.style.visibility = "visible";
+    respond16.style.margin = "10px 0 5px 0";
+
 }
 
 //Initial definition
@@ -291,6 +311,7 @@ function play(elem){
     respond13.style.visibility = "hidden";
     respond14.style.visibility = "hidden";
     respond15.style.visibility = "hidden";
+    respond16.style.visibility = "hidden";
 
 
 
