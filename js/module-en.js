@@ -211,6 +211,20 @@ let months = {
 
 
 };
+let holiday = {
+    'відвідувати кузинів':'visit my cousins',
+    'відправлятися в похід':'go hiking',
+    'зберігати альбом':'keep a scrapbook',
+    'допомогати в саду':'help in the garden',
+    'будувати будинок на дереві':'build a tree house',
+    'читати комікси':'read a comic',
+    'вчитися плавати':'learn to swim',
+    'йти в кемпінг(з палатками)':'go camping',
+    'брати уроки верхової їзди':'take riding lessons'
+
+
+
+};
 //array for shuffled keys, needs to be global
 let shuffledWords;
 
@@ -281,7 +295,8 @@ function startPlay(){
     respond15.style.margin = "10px 0 5px 0";
     respond16.style.visibility = "visible";
     respond16.style.margin = "10px 0 5px 0";
-
+    respond17.style.visibility = "visible";
+    respond17.style.margin = "10px 0 5px 0";
 }
 
 //Initial definition
@@ -312,6 +327,7 @@ function play(elem){
     respond14.style.visibility = "hidden";
     respond15.style.visibility = "hidden";
     respond16.style.visibility = "hidden";
+    respond17.style.visibility = "hidden";
 
 
 
