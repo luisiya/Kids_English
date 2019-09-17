@@ -225,6 +225,21 @@ let holiday = {
 
 
 };
+
+let library = {
+    'англіський':'english',
+    'географія':'geography',
+    'музика':'music',
+    'Айті':'i.t.',
+    'історія':'history',
+    'математика':'maths',
+    'наука':'science',
+    'мистецтво':'art',
+    'фізична культура':'p.e.'
+
+
+
+};
 //array for shuffled keys, needs to be global
 let shuffledWords;
 
@@ -258,8 +273,8 @@ playSound("main");
 
 //Start to play
 function startPlay(){
-    let x = document.querySelector("#mainMusic");
-    pauseAudio(x);
+    // let x = document.querySelector("#mainMusic");
+    // pauseAudio(x);
 
     playSound("do");
     start.style.visibility = "hidden";
@@ -297,6 +312,8 @@ function startPlay(){
     respond16.style.margin = "10px 0 5px 0";
     respond17.style.visibility = "visible";
     respond17.style.margin = "10px 0 5px 0";
+    respond18.style.visibility = "visible";
+    respond18.style.margin = "10px 0 5px 0";
 }
 
 //Initial definition
@@ -328,7 +345,7 @@ function play(elem){
     respond15.style.visibility = "hidden";
     respond16.style.visibility = "hidden";
     respond17.style.visibility = "hidden";
-
+    respond18.style.visibility = "hidden";
 
 
     playSound("re");
