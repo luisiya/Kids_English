@@ -19,7 +19,7 @@ body {
 
 }
 
-#respond, #respond18, #respond16,#respond17, #respond13, #respond14, #respond15, #respond1, #respond2, #respond3, #respond4, #respond5, #respond6, #respond7, #respond8, #respond9, #respond10, #respond11, #respond12 {
+#respond, #respond18, #respond19, #respond16,#respond17, #respond13, #respond14, #respond15, #respond1, #respond2, #respond3, #respond4, #respond5, #respond6, #respond7, #respond8, #respond9, #respond10, #respond11, #respond12 {
     visibility: hidden;
 
     display: inline-block;
@@ -36,7 +36,7 @@ body {
     box-shadow: black 4px 4px 10px;
 }
 
-#respond:hover, #respond18:hover,  #respond13:hover,#respond16:hover,#respond17:hover, #respond14:hover, #respond15:hover, #respond1:hover, #respond2:hover, #respond3:hover, #respond4:hover, #respond5:hover, #respond6:hover, #respond7:hover, #respond8:hover, #respond9:hover, #respond10:hover, #respond11:hover, #respond12:hover {
+#respond:hover, #respond18:hover, #respond19:hover,  #respond13:hover,#respond16:hover,#respond17:hover, #respond14:hover, #respond15:hover, #respond1:hover, #respond2:hover, #respond3:hover, #respond4:hover, #respond5:hover, #respond6:hover, #respond7:hover, #respond8:hover, #respond9:hover, #respond10:hover, #respond11:hover, #respond12:hover {
     font-size: 34px;
     /*width: 310px;*/
 }

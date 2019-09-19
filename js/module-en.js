@@ -235,11 +235,30 @@ let library = {
     'математика':'maths',
     'наука':'science',
     'мистецтво':'art',
-    'фізична культура':'p.e.'
+    'фізична культура':'p.e.',
+    "библиотека":"library"
 
 
 
 };
+let similarity = {
+    'паганий':'bad',
+    'ліжко':'bed',
+    'чоловік':'man',
+    'чоловіки':'men',
+    'кепка':'cap',
+    'чашка':'cup',
+    'домашні тварини':'pets',
+    'гладити тварин':'pats',
+    'мусорна корзина':'bin',
+    'Бен':'ben',
+    'кіт':'cat',
+    'різати':'cut',
+    'капелюх':'hat',
+    'бити':'hit',
+    'олівець':'pen',
+    'сковорода':'pan'
+    };
 //array for shuffled keys, needs to be global
 let shuffledWords;
 
@@ -314,6 +333,8 @@ function startPlay(){
     respond17.style.margin = "10px 0 5px 0";
     respond18.style.visibility = "visible";
     respond18.style.margin = "10px 0 5px 0";
+    respond19.style.visibility = "visible";
+    respond19.style.margin = "10px 0 5px 0";
 }
 
 //Initial definition
@@ -346,6 +367,7 @@ function play(elem){
     respond16.style.visibility = "hidden";
     respond17.style.visibility = "hidden";
     respond18.style.visibility = "hidden";
+    respond19.style.visibility = "hidden";
 
 
     playSound("re");
