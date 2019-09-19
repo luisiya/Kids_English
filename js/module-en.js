@@ -242,7 +242,7 @@ let library = {
 
 };
 let similarity = {
-    'паганий':'bad',
+    'поганий':'bad',
     'ліжко':'bed',
     'чоловік':'man',
     'чоловіки':'men',
@@ -256,7 +256,7 @@ let similarity = {
     'різати':'cut',
     'капелюх':'hat',
     'бити':'hit',
-    'олівець':'pen',
+    'ручка':'pen',
     'сковорода':'pan'
     };
 //array for shuffled keys, needs to be global
