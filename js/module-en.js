@@ -259,6 +259,17 @@ let similarity = {
     'ручка':'pen',
     'сковорода':'pan'
     };
+let prepositions = {
+    'напроти':'opposite',
+    'над':'above',
+    'біля':'near',
+    'під':'below',
+    'міжду':'between',
+    'перед':'in front of',
+    'позаду':'behind',
+    'под':'under',
+    'возле':'next to'
+};
 //array for shuffled keys, needs to be global
 let shuffledWords;
 
@@ -335,6 +346,8 @@ function startPlay(){
     respond18.style.margin = "10px 0 5px 0";
     respond19.style.visibility = "visible";
     respond19.style.margin = "10px 0 5px 0";
+    respond20.style.visibility = "visible";
+    respond20.style.margin = "10px 0 5px 0";
 }
 
 //Initial definition
@@ -368,6 +381,7 @@ function play(elem){
     respond17.style.visibility = "hidden";
     respond18.style.visibility = "hidden";
     respond19.style.visibility = "hidden";
+    respond20.style.visibility = "hidden";
 
 
     playSound("re");
